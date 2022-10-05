@@ -1,9 +1,10 @@
 import "./App.css";
+import WorkerList from "./components/WorkerList";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome TS</h1>
+    <div className="app">
+      <WorkerList />
     </div>
   );
 }
